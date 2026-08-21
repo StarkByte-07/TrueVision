@@ -11,7 +11,7 @@ if face_cascade.empty():
 
 def extract_faces(frames_folder, faces_folder="faces", max_faces=10):
     """
-    Extracts faces from frames.
+    Extracts faces from  given frames.
     - Detects one face per frame (largest face).
     - Stops after collecting max_faces.
     """

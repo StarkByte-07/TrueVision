@@ -120,14 +120,14 @@ def load_checkpoint_diagnosed(model, path, name):
     """
     report = {"name": name, "path": path, "issues": [], "status": "unknown"}
 
-    # â”€â”€ 2a. File existence â”€â”€
+    #  2a. File existence â”€â”€
     if not os.path.exists(path):
         report["issues"].append("FILE_NOT_FOUND")
         report["status"] = "MISSING"
         print(f"  âœ— {name}: file not found at {path}")
         return model.to(DEVICE).eval(), report
 
-    # â”€â”€ 2b. Load raw checkpoint â”€â”€
+    #  2b. Load raw checkpoint â”€â”€
     try:
         ck = torch.load(path, map_location=DEVICE)
     except Exception as e:

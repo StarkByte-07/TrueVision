@@ -1,4 +1,4 @@
-# app.py
+
 
 # Patched: confidence-flip bug fixed uncertainty-band veto; disputed-case handling.
 

@@ -2,7 +2,7 @@ import cv2, os
 
 def extract_frames(video_path, frames_folder, max_frames=30):
     """
-    Smart frame skipping based on video duration.
+    Smart frame skipping based on video durationS.
     Stops at max_frames regardless of video length.
     """
     os.makedirs(frames_folder, exist_ok=True)

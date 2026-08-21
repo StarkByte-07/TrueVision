@@ -1,6 +1,6 @@
 """
 Inspect all model checkpoint to discover their actual architecture.
-Run this on EC2:  python inspect_checkpoints.py
+Run this on EC2:  python inspect_checkpoint.py
 """
 import torch
 import os

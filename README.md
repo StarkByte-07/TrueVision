@@ -385,4 +385,4 @@ Contributions, bug reports, and feature requests are welcome! Please open an iss
 
 ---
 
-**Last Updated**: 2026-05-26
+**Last Updated**: 2026-05-26.
